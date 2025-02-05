@@ -1,0 +1,289 @@
+@charset'UTF-8';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family:josefinSans;
+    src: url(fontes/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:Righteous;
+    src: url(fontes/Righteous/Righteous-Regular.ttf);
+}
+
+@font-face {
+    font-family:Museo;
+    src: url(fontes/MuseoModerno/MuseoModerno-VariableFont_wght.ttf);
+}
+    
+
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1300px;
+    min-width: 320px;
+}
+
+/* #6262ddaf
+   #6262ddaa*/
+
+
+body{
+    background-color: #62b1de8a
+  
+}
+
+header{
+
+}
+
+header h1{
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.97);
+    text-align: center;
+    font-family:'Righteous';
+    background-color: #1c1ccfaf;
+    text-shadow: 2px 3px 1px black;
+}
+
+nav{
+
+    background-color: #6262dd;
+
+}
+
+nav a{
+    font-size: 1.5em;
+    font-family:'josefinSans';
+    color: rgba(0, 0, 0, 0.252);
+    text-decoration: none;
+    margin: 10px;
+    max-width: 1300px;
+    min-width: 320px;
+}
+
+
+nav a:hover{
+    background-color: rgba(245, 245, 245, 0.272);
+    border-radius: 2px;
+    transition: 1s;
+}
+
+
+main{
+    background-color: white;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.281);
+
+}
+
+main h2{
+    font-family:'Museo';
+    font-size: 50px;
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+
+
+
+article p{
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 40px;
+    font-family: 'josefinSans';
+    font-size: 25px;
+}
+
+
+
+
+aside h3{
+
+    font-family:'Museo';
+    font-size: 50px;
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+
+aside ul{
+    background-color:#8962de2a ;
+    margin: 50px;
+    list-style: inside;
+    columns: 2;
+}
+
+
+aside p{
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 40px;
+    font-family: 'josefinSans';
+    font-size: 25px;
+}
+
+/*decoraçoes das linguagens*/
+
+.linguagemhtml{
+    color: black;
+}
+
+.linguagemhtml:hover{
+    background-image: linear-gradient(to right, orange, transparent);
+
+}
+
+
+.linguagemcss{
+    color: black;
+}
+
+.linguagemcss:hover{
+    background-image: linear-gradient(to right, blue, transparent);
+
+}
+.linguagemjavascript{
+    color: black;
+}
+
+.linguagemjavascript:hover{
+    background-image: linear-gradient(to right, yellow, transparent);
+}
+
+.linguagemjava{
+    color: black;
+}
+
+.linguagemjava:hover{
+    background-image: linear-gradient(to right, red, transparent);
+}
+.linguagemphp{
+    color: black;
+}
+
+.linguagemphp:hover{
+    background-image: linear-gradient(to right, rgb(174, 129, 215), transparent);
+}
+
+.linguagempython{
+    color: black;
+}
+
+.linguagempython:hover{
+    background-image: linear-gradient(to right, green, transparent);
+}
+
+.linguagemcsharp{
+    color: black;
+}
+
+.linguagemcsharp:hover{
+    background-image: linear-gradient(to right, purple, transparent);
+}
+
+.linguagemswift{
+    color: black;
+}
+
+.linguagemswift:hover{
+    background-image: linear-gradient(to right, rgb(249, 110, 40), transparent)
+}
+
+.linguagemsql{
+    color: black;
+}
+
+.linguagemsql:hover{
+    background-image: linear-gradient(to right, lightgreen, transparent);
+}
+
+
+.linguagemruby{
+    color: black;
+}
+
+.linguagemruby:hover{
+    background-image: linear-gradient(to right,#e98989, transparent );
+}
+
+
+
+.linguagemrust{
+    color: black;
+}
+
+.linguagemrust:hover{
+    background-image: linear-gradient(to right, whitesmoke, transparent);
+}
+
+.linguagemtype{
+    color: black;
+}
+
+.linguagemtype:hover{
+    background-image: linear-gradient(to right, darkblue, transparent);
+}
+
+.linguagemc{
+    color: black;
+}
+
+.linguagemc:hover{
+    background-image: linear-gradient(to right, #181892, transparent);
+}
+
+.linguagemgo{
+    color: black;
+}
+
+.linguagemgo:hover{
+    background-image:linear-gradient(to right, #38b0b0, transparent);
+}
+
+.linguagemassembly{
+    color: black;
+}
+
+.linguagemassembly:hover{
+    background-image: linear-gradient(to right, #121244, transparent);
+}
+
+.linguagemcmais{
+    color: black;
+}
+
+
+.linguagemcmais:hover{
+    background-image: linear-gradient(to right, lightblue,transparent);
+}
+
+
+
+/*rodape*/
+footer{
+
+}
+/*ajuste das imagens*/
+.logo{
+    margin: auto;
+    display: block;
+    max-width: 1300px;
+    min-width: 320px;
+    width: 300px;
+    height: 300px
+}
+
+
+
+.phplogo{
+    display: block;
+    margin: auto;
+    max-width: 1300px;
+    min-width: 320px;
+    width: 600px}
