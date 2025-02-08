@@ -282,6 +282,12 @@ footer{
     height: 300px
 }
 
+#back{
+    display: none;
+}
+#burguer{
+    margin: auto;
+}
 
 
 
