@@ -15,9 +15,17 @@
         text-align: center;
     }
     nav{
-        padding: 10px;
+        padding: 20px;
 
     }
+
+    header{
+        width: 100vh;
+    }
+
+
+
+
     body{
     }
 
@@ -26,6 +34,7 @@
     }
 
     main{
+        width: 100vh;
         margin: 0px;
         padding: 0px;
         margin: auto;
@@ -61,6 +70,7 @@
 
     nav a:hover{
         display: none;
+        transition: none;
     }
 
     
@@ -76,6 +86,9 @@
     }
     #back{
         display: block;
+    }
+    br{
+        display: none;
     }
     
 }
