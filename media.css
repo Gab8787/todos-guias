@@ -52,13 +52,6 @@
         font-size: 15px;
     }
 
-    main{
-        width: 70%;
-        margin: 0px;
-        padding: 0px;
-        margin: auto;
-    }
-
 
     main h2{
         font-size: 30px;
@@ -68,12 +61,15 @@
     main{
         width: 90%;
         padding: 20px;
+        display: block;
         margin: auto;
     }
+
     .phplogo{
         height: 300px;
         width: 90px;
     }
+
     .logo{
         height: 300px;
         width: 90px;
