@@ -12,7 +12,7 @@
     }
     }
     #burguer{
-
+        margin: auto;
         text-align: center;
     }
     nav{
@@ -23,12 +23,14 @@
     }
 
     header{
+        margin: auto;
     }
 
 
 
 
     body{
+        margin: auto;
     }
 
     article p{
