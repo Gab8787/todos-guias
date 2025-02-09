@@ -33,6 +33,11 @@
         margin: auto;
     }
 
+    footer{
+        margin: auto;
+        text-align: center;
+    }
+
     article p{
         font-size: 15px;
     }
