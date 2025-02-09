@@ -10,7 +10,15 @@
     }
     body{
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 25px;
+    }
+
+    article p{
+        font-size: 15px;
+    }
+
+    main h2{
+        font-size: 30px;
     }
 
 
