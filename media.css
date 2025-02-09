@@ -16,7 +16,7 @@
         text-align: center;
     }
     nav{
-        width: 50%;
+        width: 70%;
         margin: 0px;
         padding: 0px;
 
@@ -30,10 +30,12 @@
 
 
     body{
+        width: 95%;
         margin: auto;
     }
 
     footer{
+        width: 70%;
         margin: auto;
         text-align: center;
     }
@@ -51,6 +53,7 @@
     }
 
     main{
+        width: 70%;
         margin: 0px;
         padding: 0px;
         margin: auto;
@@ -81,7 +84,8 @@
     
     }
     nav a{
-        line-height: 90px;
+        margin: 10px;
+        line-height: 70px;
     } 
 
     nav a:hover{
