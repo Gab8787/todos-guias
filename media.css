@@ -12,22 +12,14 @@
     }
     }
     #burguer{
-        margin: auto;
         text-align: center;
     }
-    nav{
-        margin: 0px;
-        padding: 0px;
 
-    }
+    
 
     header{
         width: 100%;
     }
-
-
-
-
     body{
         margin: auto;
     }
@@ -92,9 +84,9 @@
         display: none;
         transition: none;
     }
-
-    
 }
+    
+
 
 
 
