@@ -27,12 +27,12 @@
 }
 
 /* #6262ddaf
-   #6262ddaa*/
+#6262ddaa*/
 
 
 body{
     background-color: #62b1de8a
-  
+
 }
 
 header{
@@ -105,7 +105,14 @@ article a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     text-decoration: none;
-    color: #6262dd;
+    color: rgb(106, 105, 105);
     margin: 30px;
 
+}
+
+article a:hover{
+    transition: 1s;
+    border-radius: 2px;
+    background-color: rgb(221, 220, 220);
+    padding: 5px;
 }

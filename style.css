@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend+Giga:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*FONTES*/
 
 @font-face {
     font-family:josefinSans;
@@ -19,7 +20,7 @@
     src: url(fontes/MuseoModerno/MuseoModerno-VariableFont_wght.ttf);
 }
     
-
+/*CONFIGURAÇOES GERAIS*/
 *{
     margin: 0px;
     padding: 0px;
@@ -28,12 +29,12 @@
     
 
 /* #6262ddaf
-   #6262ddaa*/
+#6262ddaa*/
 
 
 body{
     background-color: #62b1de8a
-  
+
 }
 
 header{
@@ -51,7 +52,8 @@ header h1{
 
 nav{
     padding: 20px;
-    background-color: #6262dd;
+    background-color:#6262ddaa ;
+
 
 }
 
@@ -79,7 +81,7 @@ main{
     margin: 60px;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.281);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.281);
 
 }
 
@@ -130,7 +132,7 @@ aside p{
     margin-bottom:70px ;
 }
 
-/*decoraçoes das linguagens*/
+/*degrade das linguagens*/
 
 .linguagemhtml{
     color: black;
@@ -264,6 +266,7 @@ aside p{
 .linguagemcmais:hover{
     background-image: linear-gradient(to right, lightblue,transparent);
 }
+/*FINAL DO DEGRADE*/
 
 
 
